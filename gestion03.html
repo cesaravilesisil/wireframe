@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="css/wireframe.css" rel="stylesheet" media="screen">
+    <link href="css/estilosisil.css" rel="stylesheet" media="screen">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -19,42 +19,37 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="redes-sociales">
-          <li a class="boton">F</li>
-          <li a class="boton">F</li>
-          <li a class="boton">F</li>
-          <li a class="boton">F</li>
-          <li a class="boton">F</li>
-          <li a class="boton">F</li>
+          <li><a class="boton1" href="#"><span>facebook</span></a></li>
+          <li><a class="boton2" href="#"><span>facebook</span></a></li>
+          <li><a class="boton3" href="#"><span>facebook</span></a></li>
+          <li><a class="boton4" href="#"><span>facebook</span></a></li>
+          <li><a class="boton5" href="#"><span>facebook</span></a></li>
+          <li><a class="boton6" href="#"><span>facebook</span></a></li>
         </ul>
       </div>
       <div class="col-md-4">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right login">
           <li><a href="#">Ingresar</a></li>
           <li><a href="#">Registrarse</a></li>
         </ul>
       </div>
     </div><!-- social/ingresar -->
-        <div class="row">
-          <div class="col-md-12">
-            <div class="col-md-2">
-              <p>EL DIARIO DE ECONOMIA Y NEGOCIOS DEL PERU</p>
+    <div class="row cabecera">
+      <div class="col-md-8">
+        <a class="navbar-brand" href="#"><span>GESTIÓN</span></a>
+      </div>
+      <div class="col-md-4">
+        <div class="caja-fecha-buscar">
+          <p class="hora-fecha">Viernes, 30 de agosto del 2013 Temperatura 17°</p>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Buscar">
             </div>
-            <div class="col-md-2">
-              <a class="navbar-brand" href="#">GESTIÓN</a>
-            </div>
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-4">
-              <p>Viernes, 30 de agosto del 2013 Temperatura 17°</p>
-              <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
-                  <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-            </div>
-          </div>
-        </div>  
+            <button type="submit" class="btn btn-default">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div><!-- cabecera -->
     <nav class="navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -66,7 +61,7 @@
         </button>
       </div>
     <!-- MENU -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <div class="collapse navbar-collapse navbar-ex1-collapse menu-gestion">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Portada</a></li>
           <li><a href="#">Economia</a></li>
@@ -80,10 +75,10 @@
           <li><a href="#">Blogs</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </nav>
+    </nav><!-- menu -->
     <div class="row">
       <div class="col-md-12">
-        <img src="images/banner1.jpg" alt="banner1" class="img" width="964" height="120">
+        <img src="images/banner-nissan.jpg" alt="banner1" class="img">
       </div>
     </div>
     <hr>
@@ -161,24 +156,24 @@
           <hr>
         </div>
       </div><!-- Main column -->
-      <div class="col-md-4 sidebar-offcanvas" id="sidebar">
-        <h4>Mercado de valores</h4>
-        <img src="images/mercadovalores.jpg" alt="mercado de valores" class="img">
+     <div class="col-md-4 sidebar-offcanvas" id="sidebar">
+        <h4 class="titulos-sidebar">Mercado de valores</h4>
+        <img src="images/mercadovalores1.jpg" alt="mercado de valores" class="img">
         <hr>
-        <h4>Índices bursátiles</h4>  
-        <img src="images/indicesbursatiles.jpg" alt="mercado de valores" class="img">
+        <h4 class="titulos-sidebar">Índices bursátiles</h4>  
+        <img src="images/bursatil1.jpg" alt="mercado de valores" class="img">
         <hr>
-        <img src="images/publi1.jpg" alt="mercado de valores" class="img">
+        <img src="images/publicidad1.jpg" alt="mercado de valores" class="img">
         <hr>
-        <h4>Multimedia</h4>
-        <img src="images/multimedia.jpg" alt="mercado de valores" class="img">
+        <h4 class="titulos-sidebar">Multimedia</h4>
+        <img src="images/multimedia1.jpg" alt="mercado de valores" class="img">
         <hr>
-        <h4>Caricatura</h4>
-        <img src="images/caricatura.jpg" alt="mercado de valores" class="img"> <hr>
-        <h4>E-Paper</h4>
-        <img src="images/epaper.jpg" alt="mercado de valores" class="img">
+        <h4 class="titulos-sidebar">Caricatura</h4>
+        <img src="images/caricatura1.jpg" alt="mercado de valores" class="img"> <hr>
+        <h4 class="titulos-sidebar">E-Paper</h4>
+        <img src="images/epaper1.jpg" alt="mercado de valores" class="img">
       </div><!-- Sidebar -->
-    </div><!-- row -->
+    </div><!-- Contenido -->
     <hr>
     <footer>
     <nav class="navbar navbar-default" role="navigation">
@@ -192,7 +187,7 @@
         </button>
       </div>
     <!-- MENU -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <div class="collapse navbar-collapse navbar-ex1-collapse menu-gestion">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Portada</a></li>
           <li><a href="#">Economia</a></li>
@@ -206,13 +201,17 @@
           <li><a href="#">Blogs</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </nav>
-    <div class="row col-md-12">
-      <a class="navbar-brand" href="#">GESTION</a>
-      <p>DIRECTOR: JULIO LIRA SEGURA Copyright Prensa Popular SAC. Derechos Reservados: Prohibida su reproducción sin previa autorización. Lima, Perú</p>
+    </nav><!-- menu -->
+    <div class="row cabecera">
+      <div class="col-md-6">
+        <a class="navbar-brand" href="#"><span>GESTIÓN</span></a>
       </div>
-      <div class="row col-md-12">
-        <div class="col-md-12">
+      <div class="col-md-6">
+          <p class="hora-fecha">DIRECTOR: JULIO LIRA SEGURA Copyright Prensa Popular SAC. Derechos Reservados: Prohibida su reproducción sin previa autorización. Lima, Perú</p>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-12 visite">
           <p>Visite también: <a href="#">elcomercio.pe</a>| <a href="#">peru21.pe</a>| <a href="#">peru.com</a>| <a href="#">depor.pe</a>| <a href="#">trome.pe</a>| <a href="#">publimetro.pe</a>| <a href="#">laprensa.pe</a>| <a href="#">aptitus.pe</a>| <a href="#">kotear.pe</a>| <a href="#">neoauto.pe</a>| <a href="#">urbania.pe</a>| <a href="#">guiagps.pe</a>| <a href="#">ofertop.pe| <a href="#">iquiero.com</a>| <a href="#">nuestromercado.com</a>| <a href="#">Perured.pe</a></p>
         </div>
       </div>
