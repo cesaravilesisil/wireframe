@@ -30,6 +30,14 @@ a:hover{
 	color:#333;
 }
 
+a.secundaria{ 
+	color:#333;
+}
+
+a.secundaria:hover{ 
+	color:#770d0d;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family:"Times New Roman", Times, serif;}
 
@@ -159,8 +167,9 @@ span {
 
 .menu-gestion {
 	background-color:#770d0d;
-	font-size:10px;
-	font-weight:bold;
+	font-size:12px;
+	font-weight:regular;
+	letter-spacing:-0.1em;
 }
 
 .menu-gestion ul{
@@ -181,6 +190,10 @@ li .active{
 	margin-right:2px;
 	background-color:#ffdfbb;
 }
+
+.navbar {
+	min-height:35px;
+	}
 /* estilos contenido */
 
 .noticia{
@@ -202,6 +215,12 @@ li .active{
 	font-size:24px;
 	color:#ffffff;
 	text-align:center;
+}
+
+.nota-foto{
+	display:block;
+	width:auto;
+	height:20px;
 }
 
 /* estilos sidebar */
